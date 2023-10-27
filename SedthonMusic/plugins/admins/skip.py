@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from AnonXMusic import YouTube, app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import db
-from AnonXMusic.utils.database import get_loop
-from AnonXMusic.utils.decorators import AdminRightsCheck
-from AnonXMusic.utils.inline import close_markup, stream_markup
-from AnonXMusic.utils.stream.autoclear import auto_clean
-from AnonXMusic.utils.thumbnails import get_thumb
+from SedthonMusic import YouTube, app
+from SedthonMusic.core.call import Anony
+from SedthonMusic.misc import db
+from SedthonMusic.utils.database import get_loop
+from SedthonMusic.utils.decorators import AdminRightsCheck
+from SedthonMusic.utils.inline import close_markup, stream_markup
+from SedthonMusic.utils.stream.autoclear import auto_clean
+from SedthonMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
