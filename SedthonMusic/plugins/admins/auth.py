@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.utils import extract_user, int_to_alpha
-from AnonXMusic.utils.database import (
+from SedthonMusic import app
+from SedthonMusic.utils import extract_user, int_to_alpha
+from SedthonMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from AnonXMusic.utils.decorators import AdminActual, language
-from AnonXMusic.utils.inline import close_markup
+from SedthonMusic.utils.decorators import AdminActual, language
+from SedthonMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
