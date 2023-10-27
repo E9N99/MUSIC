@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import SUDOERS, db
-from AnonXMusic.utils import AdminRightsCheck
-from AnonXMusic.utils.database import is_active_chat, is_nonadmin_chat
-from AnonXMusic.utils.decorators.language import languageCB
-from AnonXMusic.utils.inline import close_markup, speed_markup
+from SedthonMusic import app
+from SedthonMusic.core.call import Anony
+from SedthonMusic.misc import SUDOERS, db
+from SedthonMusic.utils import AdminRightsCheck
+from SedthonMusic.utils.database import is_active_chat, is_nonadmin_chat
+from SedthonMusic.utils.decorators.language import languageCB
+from SedthonMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
