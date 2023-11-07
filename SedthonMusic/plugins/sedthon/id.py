@@ -2,7 +2,7 @@ import asyncio
 from pyrogram import Client, filters
 from SedthonMusic import app
 import random
-from strings.filters import command
+from strings import command
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
