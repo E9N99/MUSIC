@@ -1,6 +1,6 @@
 import asyncio
 import random
-from SedthonMusic.misc import SUDOERS
+from SedthonMusic.misc import OWNER_ID
 from pyrogram.types import (Message,InlineKeyboardButton,InlineKeyboardMarkup,CallbackQuery,ChatPrivileges)
 from pyrogram import filters, Client
 from SedthonMusic import app
@@ -11,7 +11,7 @@ botname = {}
 
 name = "سيدثون"
 
-@app.on_message(filters.regex("تعيين اسم البوت")& filters.private & SUDOERS, group=7113)
+@app.on_message(filters.regex("تعيين اسم البوت")& filters.private & OWNER_ID, group=7113)
 async def set_bot_name(client, message):
     global name
     ask = await app.ask(message.chat.id, "ارسل الاسم الجديد", timeout=300)
