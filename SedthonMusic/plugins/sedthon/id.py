@@ -3,7 +3,6 @@ import command
 from pyrogram import Client, filters
 from SedthonMusic import app
 import random
-from strings
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
